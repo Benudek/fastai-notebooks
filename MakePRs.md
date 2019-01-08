@@ -1,19 +1,9 @@
----
-title: git Notes
----
-
-Chances are that you may need to know some git when using fastai - for example if you want to contribute to the project, or you want to undo some change in your code tree. This document has a variety of useful recipes that might be of help in your work.
-
-
-
 
 ## How to Make a Pull Request (PR)
 
 While this guide is mostly suitable for creating PRs for any github project, it includes steps specific to the `KONE` project repositories. 
 
 Focus is exlaining how use the Automation scripts
-
-Disclaimer: Whereever we could, we 'stole' from fast.ai: https://docs.fast.ai/dev/git.html#how-to-make-a-pull-request-pr
 
 The following instructions use `USERNAME` as a github username placeholder. The easiest way to follow this guide is to copy-n-paste the whole section into a file, replace `USERNAME` with your real username and then follow the steps.
 
@@ -244,3 +234,4 @@ curl https://api.github.com/repos/github/hub/releases/latest
 identifying user's platform, retrieving the corresponding to that platform package, unarchiving it, identifying the conda base as shown above, and running `install` with that prefix. If you work on it, please write it in python, so that windows users w/o bash could use it too. It'd go into `tools/hub-install` in the `fastai` repo.
 
 
+Disclaimer: Whereever we could, we 'stole' from fast.ai: https://docs.fast.ai/dev/git.html#how-to-make-a-pull-request-pr
